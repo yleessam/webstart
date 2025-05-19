@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Layout Version</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      background-color: yellow;
+      padding: 10px;
+    }
+
+    .main {
+      display: flex;
+      height: 70%;
+    }
+
+    .nav {
+      width: 10%;
+      background-color: rgb(32, 245, 32);
+      padding: 10px;
+    }
+
+    .section {
+      width: 90%;
+      background-color: olive;
+      padding: 10px;
+    }
+
+    .footer {
+      background-color: rgb(125, 125, 194);
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">This is a Header.</div>
+
+  <div class="main">
+    <div class="nav">This is a Navigation Bar.</div>
+    <div class="section">This is a Section.</div>
+  </div>
+
+  <div class="footer">This is a Footer.</div>
+
+</body>
+</html>

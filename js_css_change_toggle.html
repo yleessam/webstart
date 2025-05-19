@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>색상 토글 예제</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+    }
+
+    .dark-mode { /* .dark-mode 에서 .은 클래스 선택자임을 의미합니다. */
+      /* .dark-mode 클래스가 적용된 요소에 대한 스타일 정의 */
+      background-color: #1e1e1e;
+      color: white;
+    }
+
+    .light-mode {
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    .toggle-button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body class="light-mode">
+
+  <h1>색상 테마 토글</h1>
+  <p>버튼을 누르면 다크모드와 라이트모드가 전환됩니다.</p>
+
+  <button class="toggle-button" onclick="toggleTheme()">테마 전환</button>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
+
+</body>
+</html>

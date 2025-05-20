@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>회원 가입 화면</h3>
+  <form action="/submit" method="post">
+    <fieldset>
+      <legend>기본 정보</legend>
+      <label for="username">사용자 이름</label> : <input type="text" name="name" required><br>
+      <label for="email">이메일 주소</label> : <input type="email" name="email"><br>
+      <label for="city">도시</label> : <input list="cities" name="city"><br>
+      <datalist id="cities">
+        <option value="서울">
+        <option value="부산">
+        <option value="대구">
+        <option value="광주">
+        <option value="제주">
+      </datalist>
+    </fieldset>
+
+    <fieldset>
+      <legend>선택 사항</legend>
+      <label for="field">희망 분야</label> : <select name="field"><br>
+        <option value="frontend">프론트엔드</option>
+        <option value="backend">백엔드</option>
+        <option value="ai">인공지능</option>
+        <option value="security">보안</option></select>
+    </fieldset>
+    
+    <!-- 버튼 영역 -->
+    <button type="submit">제출</button>
+    <button type="reset">입력양식 초기화</button>
+    <button type="button" onclick="alert('반가워요!')">인사하기</button>
+  </form>
+</body>
+</html>

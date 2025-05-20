@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>칭찬합시다.</title>
+</head>
+<body>
+  <h3>칭찬받을 사람 : <input type="text" id="nameInput"></h3>
+  <h3>칭찬 메시지 : <input type="text" id="praiseMsg"></h3>
+  <button onclick="savePraise()">칭찬 저장</button>
+  <button onclick="loadPraise()">칭찬 불러오기</button>
+
+  <p id="result"> ? </p>
+
+  <script>
+    function savePraise() {
+      let name = document.getElementById("nameInput").value;
+      let msg = document.getElementById("praiseMsg").value;
+      localStorage.setItem('to', name);
+      localStorage.setItem('praise', msg);
+      
+    }
+    function loadPraise() {
+      
+    }
+  </script>
+
+</body>
+</html>

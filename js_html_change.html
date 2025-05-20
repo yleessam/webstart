@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS로 HTML contents 변경하기 </title>
+</head>
+<body>
+  <div id="myEle">여기가 변경됩니다. </div>
+  <script>
+    
+    let ele_value = document.getElementById("myEle")
+    ele_value.innerHTML = "여기는 <b>굵은</b> 문자열"
+
+    setTimeout( function(){
+      ele_value.textContent = "여기는 <b>그냥<b> 문자열"
+    }  ,5000);
+  </script>
+</body>
+</html>

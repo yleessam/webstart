@@ -1,42 +1,35 @@
-# 웹 포트폴리오
+# 웹 기술 학습 저장소
 
-안녕하세요! 웹 개발자를 꿈꾸는 저의 포트폴리오 페이지에 오신 것을 환영합니다.
+이 저장소는 HTML, CSS, JavaScript를 처음 배우는 학습자가 웹 개발의 기초를 연습하고 실습한 결과물을 정리한 공간입니다. 각 파일은 주요 개념을 익히기 위한 예제로 구성되어 있으며, 웹페이지 구조 이해와 스타일 적용, 간단한 동작 구현 등을 목표로 합니다.
 
-## 🎯 About Me
+## 🔧 학습한 기술
 
-웹 개발에 대한 열정과 창의성을 바탕으로 사용자 중심의 웹 서비스를 구현하는 것을 목표로 하고 있습니다.
+- **HTML**: 시맨틱 태그, iframe, form, div 활용
+- **CSS**: 스타일 시트 적용, 색상 및 레이아웃 변경, Toggle 스타일링
+- **JavaScript**: DOM 조작, 이벤트 처리, 스타일 변경
 
-## 💻 기술 스택
+## 📁 파일 설명
 
-- Frontend: HTML5, CSS3, JavaScript, React
-- Backend: Node.js, Express
-- Database: MongoDB, MySQL
-- Version Control: Git, GitHub
+| 파일명                        | 설명 |
+|-----------------------------|------|
+| `index.html`                | 자기소개 페이지 (홈 화면) |
+| `hello.html`, `hello1.html` | HTML 기초 태그 실습 예제 |
+| `hello_div.html`            | `<div>`를 사용한 레이아웃 구성 |
+| `hello_iframe.html`         | `<iframe>` 태그 연습 예제 |
 
-## 🚀 프로젝트
 
-- 쇼핑몰 웹사이트
-    
-    - React와 Node.js를 활용한 풀스택 프로젝트
-    - 사용자 인증, 상품 관리, 장바구니 기능 구현
-    - 반응형 디자인 적용
-    
-- 일정 관리 앱
-    
-    - React와 MongoDB를 이용한 CRUD 기능 구현
-    - 실시간 데이터 업데이트
-    - 사용자 친화적 UI/UX 디자인
-    
+## 📝 학습 목표
 
-## 📚 교육
+- 웹 문서의 구조와 기본 개념 이해
+- HTML, CSS, JS 간의 역할 분리 학습
+- 자기소개 페이지와 간단한 폼을 직접 구현해보는 경험
 
-- 컴퓨터공학 전공
-- 웹 개발 부트캠프 수료
+## 📌 향후 계획
 
-## 📞 연락처
+- 반응형 레이아웃 구성 연습
+- 간단한 이벤트 기반 인터랙션 구현
+- 자기소개 웹페이지 완성 프로젝트
 
-- 이메일: [example@email.com](mailto:example@email.com)
-- GitHub: [github.com/username](http://github.com/username)
-- LinkedIn: [linkedin.com/in/username](http://linkedin.com/in/username)
+---
 
-함께 일하고 싶으시다면 언제든 연락 주세요!
+내가 직접 작성한 예제를 중심으로 한 실습 기반의 저장소입니다. 계속해서 업데이트 예정입니다. 😃
